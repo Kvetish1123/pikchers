@@ -1,0 +1,31 @@
+/*
+  обнуляем отступы у браузера
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/*
+  стилизация контейнера 
+*/
+#container {
+    width: 100vw;
+    height: 450px;
+    overflow: hidden;
+}
+/*
+  стилизация отлельного слайда
+*/
+.slide {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    transition: 500ms;
+}
+/*
+  стилизация картинки слайдера
+*/
+.slide img {
+
+  
